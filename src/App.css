@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+.days-container {
+  display: flex;
+  flex-direction: row;
+}
+#time {
+  width: 104px;
+  height: 32px;
+}
+.day {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #007bff;
+  color: white;
+}
+.scndTime {
+  margin-left: 4px;
+}
